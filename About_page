@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>About us</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href='About_page_stylesheets.css' rel='stylesheet'>
+</head>
+
+
+<body>
+<!-- <div class="bg"></div> -->
+<div class="module">
+    <h1>
+      Hungry For Change.
+    </h1>
+    <h4>
+      Company name: Saving the planet one meal at a time
+    </h4>
+</div
+
+
+
+<!--Louise-->
+</div>
+
+<div class="row navbar">
+<div class="col-sm-3">
+<h3> Home </h3>
+</div>
+<div class="col-sm-3">
+<h3> About </h3>
+</div>
+<div class="col-sm-3">
+<h3> Apps </h3>
+</div>
+<div class="col-sm-3">
+<h3> Recipes </h3>
+</div>
+
+</div>
+<!-- Louise -->
+
+<h2>About us</h2>
+
+<!Taken from https://www.w3schools.com/howto/howto_js_slideshow.asp-->
+<div class="slideshow-container">
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 4</div>
+    <img src="https://gardenerspath.com/wp-content/uploads/2017/06/Joe-Gardener-Wants-More-Young-Folks-to-Learn-to-Garden.jpg" style="width:100%">
+    <div class="text">Sustainable farming</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 4</div>
+    <img src="http://midwifeandlife.com/wp-content/uploads/2016/12/IMG_20161023_153101-800x600.jpg" style="width:100%">
+    <div class="text">Home grown vegetables</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 4</div>
+    <img src="https://s-media-cache-ak0.pinimg.com/originals/24/4f/2d/244f2d787d9828c31890b3a82a50766a.jpg" style="width:100%">
+    <div class="text">Imperfect <br/> Picks</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 4</div>
+    <img src="https://i.cbc.ca/1.3605179.1464467250!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_1180/food.jpg" style="width:100%">
+    <div class="text">Montreal chefs join Massimo Bottura to fight food waste<!-- : Famed Italian chef Massimo Bottura launched his waste <br/> reduction campaign in October, when he began using the food waste from Expo Milan to run a local soup kitchen. --></div>
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>  
+</div>
+</br>
+<!Taken from https://www.w3schools.com/howto/howto_js_slideshow.asp-->
+  <div id="mission">
+    <h3><small>Our mission</small><br />Join us in helping reduced food wastage</h3>
+
+    <p>We believe that healthy workers are more productive workers.</p>
+    <p>Providing your team with a healthy lunch each day improves both motivation and morale.</p>
+    <p>We deliver healthy sandwiches, made with the best ingredients, to your workplace every day.</p>
+</div>
+
+ <p> blahblah blahblah blahblah blahblah blahblah blahblah Generating a hub for environmentalists and planet-friendly converts. A place to seek out community spaces for excess food and creative cooking. A signposting service. A warm atmosphere of pro-active members of scoiety's greenest. </p>
+
+<div class="container">
+  <div class='jumbotron'>
+     <form role='form'>
+      <label for="email">Find out more</label>
+      <input type="text" name="email" >
+      <button type="submit">Send</button>
+    </form>
+  </div>
+
+  <h2>The Team</h2>
+   <div class='row'>
+   <div class='col-sm-4'>
+    <div>
+      
+      <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuJ6skzcIAB3H_lrVrq6a0Bk3tT0S7Yrkkjp8JIWhGs_CzbR5z' class="rounded-circle img-fluid">
+     <p class="text-center">Bio.</p>
+      <small>Natalie</small>
+    </div>
+  </div>
+  <div class='col-sm-4'>
+      <div>
+      
+      <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuJ6skzcIAB3H_lrVrq6a0Bk3tT0S7Yrkkjp8JIWhGs_CzbR5z' class="rounded-circle img-fluid">
+      <p class="text-center">Bio.</p>
+      <small>Louise</small>
+    </div>
+  </div>
+    <div class='col-sm-4'>
+    <div>     
+      <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuJ6skzcIAB3H_lrVrq6a0Bk3tT0S7Yrkkjp8JIWhGs_CzbR5z' class="rounded-circle img-fluid">
+      <p class="text-center">Bio.</p>
+    <small>Elise</small>
+  </div>
+  </div>
+</div>
+</br>
+<div id="buzz">
+    <img src='https://s-media-cache-ak0.pinimg.com/736x/66/58/85/66588599dcc6d23b864fd76accecdf50.jpg'>
+    <h3><small>How to get involved...</small><br />What are people saying?</h3>
+    <br/>
+    
+   
+    <div>   
+      <p class="text-center">These sandwiches are the best I've ever tasted, for sure. I now eat them every day - breakfast, lunch and dinner.</p>
+      <small>Mr Smith, Professional sandwich taster</small>
+    </div>
+ 
+ 
+    <div>
+      <img src='images/person.jpg' class="rounded-circle img-fluid">
+      <p class="text-center">My team are always far more productive after we order from Sam's. 40% more productive, in fact.</p>
+      <small>Miss McAdam, CEO Workplace Analytics</small>
+    </div>
+
+ 
+    <div>     
+      <img src='images/person.jpg' class="rounded-circle img-fluid">
+      <p class="text-center">We switched to Sam's Sarnies and won our first government contract the next day. Coincidence? I think not!</p>
+    </div>
+</div>
+
+<div id="Get-involved">
+<img src='http://dalesdesigns.net/F&V/image001.jpg' class="rounded-circle img-fluid">
+    <div id='social-buttons'>
+      <button class='btn-twitter'>Twitter</button>
+      <button class='btn-facebook'>Facebook</button>
+      <button class='btn-pinterest'>Pinterest</button>
+    </div>
+</div>
+  
+</div>
+
+<script>
+
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1} 
+    slides[slideIndex-1].style.display = "block"; 
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+
+</script>
+
+
+
+</body>
+
+
+
+</html>
