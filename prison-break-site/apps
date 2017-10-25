@@ -1,0 +1,203 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+
+  <style> 
+
+ .navbar {background-color: #d3d3d3 ;
+   
+ }
+ .nav-link {font-size:20px;
+ margin: 0cm .3cm;}
+a{color: white;
+}
+a:hover {
+  color: #009973;
+  opacity: 0.5;
+    filter: alpha(opacity=50);
+ }
+ .logo {
+  text-shadow: -1px 0 #009973, 0 1px #009973, 1px 0 #009973, 0 -1px #009973; font-size:42px; color: white;
+ }
+ /* social media */
+
+    .fa {
+
+  font-size: 30px;
+  margin: 0px 6px;
+
+}
+
+.fa:hover {
+    opacity: 0.7;
+
+}
+
+    /* \/ placeholder color */
+
+
+input::-webkit-input-placeholder {
+color: #009973 !important;
+font-size: 20px !important;
+}
+ 
+input:-moz-placeholder { /* Firefox 18- */
+color: #009973 !important;  
+font-size: 20px !important;
+}
+ 
+input::-moz-placeholder {  /* Firefox 19+ */
+color: #009973 !important;  
+font-size: 20px !important;
+}
+ 
+input:-ms-input-placeholder {  
+color: #009973 !important;  
+font-size: 20px !important;
+}
+input{ color:black; margin-right:30px;  }
+
+</style>
+<div class="container">
+  <div class ="row">
+    
+      <nav class="navbar navbar-toggleable-md bg-faded fixed-top">
+          <button class="navbar-toggler navbar-toggler-right " type="  button" data-toggle="collapse " data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+           <span class="navbar-toggler-icon"></span>
+         </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="col-sm-3.5">
+          <a class="navbar-brand logo" href="#" >Hungry For Change. </a>
+          </div>
+
+           <div class="col-sm-5">
+            <ul class="navbar-nav mr-auto">
+               <li class="nav-item active">
+               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+               </li>
+               <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              About
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">The Team</a>
+               <a class="dropdown-item" href="#">Our Mission</a>
+               <a class="dropdown-item" href="#">Get in Contact</a>
+            
+              </div>
+              </li>
+               
+              <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Get involved
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Apps</a>
+               <a class="dropdown-item" href="#">Community Fridges</a>
+               <a class="dropdown-item" href="#">Food Banks</a>
+                <a class="dropdown-item" href="#">Events</a>
+              </div>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link" href="#">Recipes</a>
+              </li>
+           </ul>
+           </div>
+
+              <a href="#" class="fa fa-facebook"></a>
+              <a href="#" class="fa fa-twitter"></a>
+              <a href="#" class="fa fa-instagram"></a>
+
+              <form class="form-inline my-2 my-lg-0">
+   
+                <input  placeholder=search class="form-control mr-sm-2 search material-icons" type="text" >
+              </form>
+
+            
+
+       </nav>
+     </div>
+  
+ </div>
+
+</head>
+
+<body>
+
+  <div id="apps">
+  <h2>Must have apps to reduce food waste</h2>
+    <p>Do your bit for the war on waste! If you <kbd>love food and hate waste</kbd> - download these apps to help tackle food waste</p>
+
+<div class="row">
+<div class="col-3"> 
+
+    <div>
+      <img src='http://citiesforlife-latribune.paris/Media/logo_too_good_to_go.png' class="rounded-circle img-fluid" >
+      <p> The Too Good To Go app  links you with delicious food that would otherwise be thrown away for little money. You can order delicious food from local restaurants, cafes, bakeries and other food businesses, collect it up to an hour before closing time.</p>
+      <a href="http://toogoodtogo.co.uk/" class="btn btn-info" role="button" target="_blank">Download Too Good To Go here</a>
+    </div>
+
+</div>
+
+<div class="col-3">
+    <div>
+      <img src='http://is5.mzstatic.com/image/thumb/Purple118/v4/d6/aa/58/d6aa5873-e92d-8487-3ce3-35e16ff2a626/source/1200x630bb.jpg' class="rounded-circle img-fluid">
+      <p>OLIO connects app users to excess home-grown vegetables, food nearing its sell-by date in local shops, and any unwanted food in households. Users can upload a picture of their unwanted item and nearby neighbours and other users can pick these up for free!</p>
+       <a href="https://olioex.com/" class="btn btn-info" role="button" target="_blank">Download OLIO here</a>
+    </div>
+</div>
+
+<div class="col-3">
+    <div>
+      <img src='https://pbs.twimg.com/profile_images/839916529512755201/pILzIEJi.jpg' class="rounded-circle img-fluid">
+      <p>YellowLabel is a UK wide app for discounted goods that are due to expire. The app prevents food waste and saves you money by advertising and enabling the sale of ‘Yellow Label’ goods at your local supermarket such as Marks and Spencers, Sainbury's or Tesco.</p>
+      <a href="http://yellow-label.co.uk/" class="btn btn-info" role="button" target="_blank">Download YellowLabel here</a> 
+    </div> 
+</div>
+
+<div class="col-3">
+    <div>
+      <img src='https://i.vimeocdn.com/portrait/17945325_300x300' class="rounded-circle img-fluid">
+      <p>Love Food Hate Waste helps you to rethink how we shop, plan our meals better and use up our leftovers, thereby keepng foud out of the bin!</p>
+      <a href="https://scotland.lovefoodhatewaste.com/" class="btn btn-info" role="button" target="_blank">Download Love Food Hate Waste here</a> 
+    </div> 
+</div>
+</div>
+
+
+<div class="row">
+<div class="col-6"> 
+    <div>
+      <iframe src="https://www.google.com/maps/d/embed?mid=1fi2N9b1cKzXAVxnzgkenTKY30ok" width="640" height="480"></iframe>
+      <p>What's scarier than witches and ghosts at Halloween...? How about the ghoulstly 15 million pumpkins that are binned every Halloween, which is enough to make a bowl of pumpkin soup for everyone in Britain!? Find your nearest pumpkin rescue event and discover tasty simple ways to eat your pumpkin guts!</p>
+    </div>
+</div>
+
+<div class="col-6">
+    <div>
+<iframe src="https://www.google.com/maps/d/embed?mid=16XUitzm5yZSDdG8JI8cUfMu1Pak" width="640" height="480"></iframe> 
+      <p>Community Fridges are communal places where surplus food is shared between people in a community, by local businesses and individuals. Donate surplus food that you’re not going to use to your local Community Fridge - find your nearest one with the map above.</p>
+    </div>
+</div>
+
+</body>
+</html>
