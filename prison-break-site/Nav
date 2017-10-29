@@ -20,6 +20,8 @@
   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
   crossorigin="anonymous"></script>
 
+
+
   <style> 
 
  .navbar {background-color: #d3d3d3 ;
@@ -28,11 +30,13 @@
  .nav-link {font-size:20px;
  margin: 0cm .3cm;}
 a{color: white;
+
 }
 a:hover {
   color: #009973;
   opacity: 0.5;
     filter: alpha(opacity=50);
+
  }
  .logo {
   text-shadow: -1px 0 #009973, 0 1px #009973, 1px 0 #009973, 0 -1px #009973; font-size:42px; color: white;
@@ -50,6 +54,9 @@ a:hover {
     opacity: 0.7;
 
 }
+ li {
+   list-style-type:none;
+   }
 
     /* \/ placeholder color */
 
@@ -74,14 +81,18 @@ color: #009973 !important;
 font-size: 20px !important;
 }
 input{ color:black; margin-right:30px;  }
+  input { color: black; } 
+  .search { color: black; }
+  .nav-link{font-size:18px;}
 
 </style>
 <div class="container">
   <div class ="row">
     
       <nav class="navbar navbar-toggleable-md bg-faded fixed-top">
-          <button class="navbar-toggler navbar-toggler-right " type="  button" data-toggle="collapse " data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 
+          <button class="navbar-toggler navbar-toggler-right " type="  button" data-toggle="collapse " data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+     <ul class="nav navbar-nav">
            <span class="navbar-toggler-icon"></span>
          </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -89,11 +100,17 @@ input{ color:black; margin-right:30px;  }
           <a class="navbar-brand logo" href="#" >Hungry For Change. </a>
           </div>
 
-           <div class="col-sm-5">
-            <ul class="navbar-nav mr-auto">
+
+
+       
                <li class="nav-item active">
-               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-               </li>
+
+               <a class="nav-link" href="#" style="list-style-type:none" >Home <span class="sr-only">(current)</span></a>
+          </li>
+
+
+
+
                <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               About
@@ -105,6 +122,10 @@ input{ color:black; margin-right:30px;  }
             
               </div>
               </li>
+    
+
+
+
                
               <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -121,6 +142,7 @@ input{ color:black; margin-right:30px;  }
               <a class="nav-link" href="#">Recipes</a>
               </li>
            </ul>
+
            </div>
 
               <a href="#" class="fa fa-facebook"></a>
@@ -129,7 +151,7 @@ input{ color:black; margin-right:30px;  }
 
               <form class="form-inline my-2 my-lg-0">
    
-                <input  placeholder=search class="form-control mr-sm-2 search material-icons" type="text" >
+                <input  id=fix? placeholder=search  class=" form-control  search"  >
               </form>
             
 
@@ -139,4 +161,7 @@ input{ color:black; margin-right:30px;  }
  </div>
 
 </head>
-<body>
+<script>
+
+
+</html>
