@@ -86,7 +86,7 @@ input{ color:black; margin-right:30px;  }
   .nav-link{font-size:18px;}
   .pagetitle { background-color:#009973; width:100%; opacity:.5; }
   .titletext { color:white; width:100%; opacity:1; font-size:40px; }
-
+    h2{padding-bottom:.5cm;}
 </style>
 <div class="container">
   <div class ="row">
@@ -176,7 +176,7 @@ input{ color:black; margin-right:30px;  }
 <div class=pagetitle> 
  <br/> 
  <h2 class=titletext> &nbsp page title here </h2>
-<br/>
+
 </div>
 
 </html>
