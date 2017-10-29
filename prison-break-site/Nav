@@ -84,6 +84,8 @@ input{ color:black; margin-right:30px;  }
   input { color: black; } 
   .search { color: black; }
   .nav-link{font-size:18px;}
+  .pagetitle { background-color:#009973; width:100%; opacity:.5; }
+  .titletext { color:white; width:100%; opacity:1; font-size:40px; }
 
 </style>
 <div class="container">
@@ -153,15 +155,28 @@ input{ color:black; margin-right:30px;  }
    
                 <input  id=fix? placeholder=search  class=" form-control  search"  >
               </form>
-            
+                
 
        </nav>
+
+
      </div>
-  
+
+
+
+
  </div>
 
-</head>
-<script>
 
+</head>
+<br/>
+<br/>
+<br/>
+
+<div class=pagetitle> 
+ <br/> 
+ <h2 class=titletext> &nbsp page title here </h2>
+<br/>
+</div>
 
 </html>
