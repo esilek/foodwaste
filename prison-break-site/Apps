@@ -226,7 +226,7 @@ font-size: 20px !important;
                 </div>
               </div>
 
-              <div class="row">
+              <div id="communityfridges" class="row">
                 <div class="col-6" style="padding: 40px">
                   <div>
                     <iframe src="https://www.google.com/maps/d/embed?mid=1fi2N9b1cKzXAVxnzgkenTKY30ok" width="640" height="480" margin-top=2 0px></iframe>
