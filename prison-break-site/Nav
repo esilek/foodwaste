@@ -2,9 +2,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+home
+
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -90,9 +89,9 @@ font-size: 20px !important;
 
 
   .search { color: black; }
-  .nav-link{font-size:18px;}
+  .nav-link{font-size:18px; margin-top:15px;}
   .pagetitle { background-color:#009973; width:100%; opacity:.5; }
-.titletext { color:white; width:100%; opacity:1; font-size:40px; padding-left:15px; margin-top:50px; padding-top:15px; padding-bottom:10px;}
+.titletext { color:white; width:100%; opacity:1; font-size:40px; padding-left:15px; margin-top:30px; padding-top:15px; padding-bottom:10px;}
 
 </style>
 <div class="container">
