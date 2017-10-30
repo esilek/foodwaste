@@ -32,7 +32,13 @@
 .a{color: white;
 
 }
-a:hover {
+.a:hover {
+  color: #009973;
+  opacity: 0.5;
+    filter: alpha(opacity=50);
+
+ }
+ .logo:hover {
   color: #009973;
   opacity: 0.5;
     filter: alpha(opacity=50);
@@ -62,27 +68,27 @@ a:hover {
     /* \/ placeholder color */
 
 
-input::-webkit-input-placeholder {
+.search::-webkit-input-placeholder {
 color: #009973 !important;
 font-size: 20px !important;
 }
  
-input:-moz-placeholder { /* Firefox 18- */
+.search:-moz-placeholder { /* Firefox 18- */
 color: #009973 !important;  
 font-size: 20px !important;
 }
  
-input::-moz-placeholder {  /* Firefox 19+ */
+.search::-moz-placeholder {  /* Firefox 19+ */
 color: #009973 !important;  
 font-size: 20px !important;
 }
  
-input:-ms-input-placeholder {  
+.search:-ms-input-placeholder {  
 color: #009973 !important;  
 font-size: 20px !important;
 }
-input{ color:black; margin-right:30px;  }
-  input { color: black; } 
+
+
   .search { color: black; }
   .nav-link{font-size:18px;}
   .pagetitle { background-color:#009973; width:100%; opacity:.5; }
@@ -137,7 +143,7 @@ input{ color:black; margin-right:30px;  }
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                 <a class="dropdown-item" href="#">Apps</a>
                <a class="dropdown-item" href="#">Community Fridges</a>
-               <a class="dropdown-item" href="#">Food Banks</a>
+               
                 <a class="dropdown-item" href="#">Events</a>
               </div>
               </li>
