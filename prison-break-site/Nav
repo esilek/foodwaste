@@ -29,7 +29,7 @@
  }
  .nav-link {font-size:20px;
  margin: 0cm .3cm;}
-a{color: white;
+.a{color: white;
 
 }
 a:hover {
@@ -58,6 +58,7 @@ a:hover {
    list-style-type:none;
    }
 
+
     /* \/ placeholder color */
 
 
@@ -85,8 +86,8 @@ input{ color:black; margin-right:30px;  }
   .search { color: black; }
   .nav-link{font-size:18px;}
   .pagetitle { background-color:#009973; width:100%; opacity:.5; }
-  .titletext { color:white; width:100%; opacity:1; font-size:40px; }
-    h2{padding-bottom:.5cm;}
+.titletext { color:white; width:100%; opacity:1; font-size:40px; padding-left:15px; margin-top:50px; padding-top:15px; padding-bottom:10px;}
+
 </style>
 <div class="container">
   <div class ="row">
@@ -107,14 +108,14 @@ input{ color:black; margin-right:30px;  }
        
                <li class="nav-item active">
 
-               <a class="nav-link" href="#" style="list-style-type:none" >Home <span class="sr-only">(current)</span></a>
+               <a class="a nav-link" href="#" style="list-style-type:none" >Home <span class="sr-only">(current)</span></a>
           </li>
 
 
 
 
                <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <a class="a nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               About
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -130,7 +131,7 @@ input{ color:black; margin-right:30px;  }
 
                
               <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <a class="a nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Get involved
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -141,15 +142,15 @@ input{ color:black; margin-right:30px;  }
               </div>
               </li>
               <li class="nav-item">
-              <a class="nav-link" href="#">Recipes</a>
+              <a class="a nav-link" href="file:///Users/mac/Desktop/newrecipes.html">Recipes</a>
               </li>
            </ul>
 
            </div>
 
-              <a href="#" class="fa fa-facebook"></a>
-              <a href="#" class="fa fa-twitter"></a>
-              <a href="#" class="fa fa-instagram"></a>
+              <a href="#" class="a fa fa-facebook"></a>
+              <a href="#" class="a fa fa-twitter"></a>
+              <a href="#" class="a fa fa-instagram"></a>
 
               <form class="form-inline my-2 my-lg-0">
    
@@ -170,12 +171,10 @@ input{ color:black; margin-right:30px;  }
 
 </head>
 <br/>
-<br/>
-<br/>
 
 <div class=pagetitle> 
- <br/> 
- <h2 class=titletext> &nbsp page title here </h2>
+ 
+ <h2 class=titletext> page title here </h2>
 
 </div>
 
