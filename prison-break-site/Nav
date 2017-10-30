@@ -105,7 +105,7 @@ font-size: 20px !important;
          </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <div class="col-sm-3.5">
-          <a class="navbar-brand logo" href="#" >Hungry For Change. </a>
+          <a class="navbar-brand logo" href="file:homepage.html"  >Hungry For Change. </a>
           </div>
 
 
@@ -113,21 +113,21 @@ font-size: 20px !important;
        
                <li class="nav-item active">
 
-               <a class="a nav-link" href="file:home.html" style="list-style-type:none" >Home <span class="sr-only">(current)</span></a>
+               <a class="a nav-link" href="file:homepage.html" style="list-style-type:none" >Home <span class="sr-only">(current)</span></a>
           </li>
 
 
 
 
                <li class="nav-item dropdown">
-              <a class="a nav-link dropdown-toggle" href="file:About_page_04" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <a class="a nav-link dropdown-toggle" href="file:About_page_04.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               About
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="file:About_page_04.mission">Our Mission</a>
-                <a class="dropdown-item" href="file:About_page_04.theteam">The Team</a>
+              <a class="dropdown-item" href="file:About_page_04.html">Our Mission</a>
+                <a class="dropdown-item" href="file:About_page_04.html#theteam">The Team</a>
                
-               <a class="dropdown-item" href="file:About_page_04.getincontact">Get in Contact</a>
+               <a class="dropdown-item" href="file:About_page_04#getincontact">Get in Contact</a>
             
               </div>
               </li>
@@ -148,7 +148,7 @@ font-size: 20px !important;
               </div>
               </li>
               <li class="nav-item">
-              <a class="a nav-link" href="file:newrecipes.html">Recipes</a>
+              <a class="a nav-link" href="file:Recipes">Recipes</a>
               </li>
            </ul>
 
@@ -185,3 +185,4 @@ font-size: 20px !important;
 </div>
 
 </html>
+
