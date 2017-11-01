@@ -1,0 +1,764 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+    <style>
+        .navbar {
+            background-color: #d3d3d3;
+        }
+        
+        .nav-link {
+            font-size: 20px;
+            margin: 0cm .3cm;
+        }
+        
+        a {
+            color: white;
+        }
+        
+        a:hover {
+            color: #009973;
+            opacity: 0.5;
+            filter: alpha(opacity=50);
+        }
+        
+        .logo {
+            text-shadow: -1px 0 #009973, 0 1px #009973, 1px 0 #009973, 0 -1px #009973;
+            font-size: 42px;
+            color: white;
+        }
+        /* social media */
+        
+        .fa {
+            font-size: 30px;
+            margin: 0px 6px;
+        }
+        
+        .fa:hover {
+            opacity: 0.7;
+        }
+        
+        li {
+            list-style-type: none;
+        }
+        /* \/ placeholder color */
+        
+        input::-webkit-input-placeholder {
+            color: #009973 !important;
+            font-size: 20px !important;
+        }
+        
+        input:-moz-placeholder {
+            /* Firefox 18- */
+            color: #009973 !important;
+            font-size: 20px !important;
+        }
+        
+        input::-moz-placeholder {
+            /* Firefox 19+ */
+            color: #009973 !important;
+            font-size: 20px !important;
+        }
+        
+        input:-ms-input-placeholder {
+            color: #009973 !important;
+            font-size: 20px !important;
+        }
+        
+        input {
+            color: black;
+            margin-right: 30px;
+        }
+        
+        input {
+            color: black;
+        }
+        
+        .search {
+            color: black;
+        }
+        
+        .nav-link {
+            font-size: 18px;
+        }
+        
+        .pagetitle {
+            background-color: #009973;
+            width: 100%;
+            opacity: .5;
+        }
+        
+        .titletext {
+            color: white;
+            width: 100%;
+            opacity: 1;
+            font-size: 40px;
+            padding-left: 15px;
+            margin-top: 50px;
+            padding-top: 10px;
+        }
+        /* this is style for recipes */
+        
+        img {
+            border-radius: 10px;
+            height: 400px;
+            width: 400px;
+            padding-left: 50px;
+        }
+        
+        .toprowimg {
+            margin-top: 50px;
+        }
+        
+        .text {
+            opacity: 1;
+            position: absolute;
+            width: 500px;
+            top: 40%;
+            left: 86%;
+            transform: translate(-50%, -50%);
+            color: white;
+            text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+            font-size: 40px;
+            font-weight: bold;
+            margin-top: 0px;
+        }
+        
+        .fridge {
+            margin-left: 10px;
+        }
+        
+        .submit {
+            background-color: #009973;
+            color: white;
+            font-size: 20px;
+        }
+        
+        .leftmargin {
+            margin-left: 40px;
+        }
+        
+        .pagetitle {
+            color: #009973;
+            font-size: 50px;
+        }
+        
+        .marginover {
+            margin-left: 230px;
+        }
+        
+        .imageclass2 {
+            opacity: .1;
+        }
+        
+        .imgtextclass2 {
+            font-size: 20px;
+            opacity: 1;
+            color: black;
+            font-family;
+            font-weight: normal;
+            text-shadow: 0px 0px;
+        }
+        
+        .butx {
+            font-size: 40px;
+            width: 30px;
+            top: 5%;
+            margin-bottom: 0px;
+            left: 25%;
+            color: #009973;
+            opacity: .8;
+        }
+        
+        h2 {
+            padding-bottom: .5cm;
+        }
+        
+        .submit {
+            margin-left: .5cm;
+        }
+        
+        .checkbox {
+            background: red;
+        }
+        /* The container */
+        
+        .container {
+            display: block;
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            font-size: 22px;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+        /* Hide the browser's default radio button */
+        
+        .container input {
+            position: absolute;
+            opacity: 0;
+        }
+        /* Create a custom radio button */
+        
+        .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 25px;
+            width: 25px;
+            background-color: #eee;
+            border-radius: 50%;
+        }
+        /* On mouse-over, add a grey background color */
+        
+        .container:hover input ~ .checkmark {
+            background-color: #ccc;
+        }
+        /* When the radio button is checked, add a blue background */
+        
+        .container input:checked ~ .checkmark {
+            background-color: #009973;
+        }
+        /* Create the indicator (the dot/circle - hidden when not checked) */
+        
+        .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+        }
+        /* Show the indicator (dot/circle) when checked */
+        
+        .container input:checked ~ .checkmark:after {
+            display: block;
+        }
+        /* Style the indicator (dot/circle) */
+        
+        .container .checkmark:after {
+            top: 9px;
+            left: 9px;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: white;
+        }
+        
+        .p1 {
+            font-weight: bold;
+            font-size: 20px;
+            margin-top: 0px;
+            padding-top: 0px;
+        }
+    </style>
+
+    <div class="container">
+        <div class="row">
+
+            <nav class="navbar navbar-toggleable-md bg-faded fixed-top">
+
+                <button class="navbar-toggler navbar-toggler-right " type="  button" data-toggle="collapse " data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <ul class="nav navbar-nav">
+                         <span class="navbar-toggler-icon"></span>
+         </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="col-sm-3.5">
+          <a class="navbar-brand logo" href="file:homepage.html"  >Hungry For Change. </a>
+          </div>
+
+
+
+       
+               <li class="nav-item active">
+
+               <a class="a nav-link" href="file:homepage.html" style="list-style-type:none" >Home <span class="sr-only">(current)</span></a>
+          </li>
+
+
+
+
+               <li class="nav-item dropdown">
+              <a class="a nav-link dropdown-toggle" href="file:About_page_04.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              About
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="file:About_page_04.html">Our Mission</a>
+                <a class="dropdown-item" href="file:About_page_04.html#theteam">The Team</a>
+               
+               <a class="dropdown-item" href="file:About_page_04#getincontact">Get in Contact</a>
+            
+              </div>
+              </li>
+    
+
+
+
+               
+              <li class="nav-item dropdown">
+              <a class="a nav-link dropdown-toggle" href="file:apps" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Get involved
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+               <a class="dropdown-item"  href="file:apps#apps">Apps</a>
+               <a class="dropdown-item" href="file:apps#communityfridges">Community Fridges</a>
+               
+                <a class="dropdown-item" href="file:apps#communityfridges">Events</a>
+              </div>
+              </li>
+              <li class="nav-item">
+              <a class="a nav-link" href="file:Recipes">Recipes</a>
+              </li>
+           </ul>
+
+           </div>
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-instagram"></a>
+
+                <form class="form-inline my-2 my-lg-0">
+
+                    <input placeholder=search class=" form-control  search">
+                </form>
+
+            </nav>
+        </div>
+
+    </div>
+
+</head>
+
+<body>
+    <br/>
+
+    <div class=pagetitle>
+
+        <h2 class="titletext"> Recipes </h2>
+
+    </div>
+
+    <div class="row">
+
+        <div class="col-sm-2">
+        </div>
+
+        <div class=c ol-sm-3>
+
+            <p id="p1" class="leftmargin"> </p>
+        </div>
+    </div>
+    <div class="row">
+
+        <div class="col-sm-2">
+            <br/>
+
+            <h3 class="fridge"> What's in your fridge?</h3>
+
+            <form id=F ridge class="fridge" onclick="getCheckboxValue(this); return false;">
+
+                <label id=items1 class="container">Bread
+                    <input name="food" value="Bread" id="check" type="radio" class="checkbox" type="radio" checked="checked" name="radio">
+                    <span class="checkmark"></span>
+                </label>
+                <label id=items2 class="container">Bananas
+                    <input name="food" value="Banana" id="check" type="radio" class="checkbox" type="radio" checked="checked" name="radio">
+                    <span class="checkmark"></span>
+                </label>
+                <label id=items3 class="container">Milk
+                    <input name="food" value="Milk" id="check" type="radio" class="checkbox" type="radio" checked="checked" name="radio">
+                    <span class="checkmark"></span>
+                </label>
+                <label id=items4 class="container">Potatoes
+                    <input name="food" value="Potatoes" id="check" type="radio" class="checkbox" type="radio" checked="checked" name="radio">
+                    <span class="checkmark"></span>
+                </label>
+                <label id=items5 class="container">Tomatoes
+                    <input name="food" value="Tomatoes" id="check" type="radio" class="checkbox" type="radio" checked="checked" name="radio">
+                    <span class="checkmark"></span>
+                </label>
+                <label id=items6 class="container">Strawberries
+                    <input name="food" value="Strawberries" id="check" type="radio" class="checkbox" type="radio" checked="checked" name="radio">
+                    <span class="checkmark"></span>
+                </label>
+                <label id=items7 class="container">Pumpkin
+                    <input name="food" value="Pumpkin" id="check" type="radio" class="checkbox" type="radio" checked="checked" name="radio">
+                    <span class="checkmark"></span>
+                </label>
+                <label id=items8 class="container">Broccoli
+                    <input name="food" value="Broccoli" id="check" type="radio" class="checkbox" type="radio" checked="checked" name="radio">
+                    <span class="checkmark"></span>
+                </label>
+                <label id=items9 class="container">Eggs
+                    <input name="food" value="Eggs" id="check" type="radio" class="checkbox" type="radio" checked="checked" name="radio">
+                    <span class="checkmark"></span>
+                </label>
+                <label id=items10 class="container">Cheese
+                    <input name="food" value="Cheese" id="check" type="radio" class="checkbox" type="radio" checked="checked" name="radio">
+                    <span class="checkmark"></span>
+                </label>
+                <label id=items11 class="container">Avocado
+                    <input name="food" value="Avocados" id="check" type="radio" class="checkbox" type="radio" checked="checked" name="radio">
+                    <span class="checkmark"></span>
+                </label>
+
+            </form>
+            <a onclick="clearfunc()" role="button" class="btn btn-info submit" style="color:white" >View All</a>
+        
+            
+
+        </div>
+        <div class="row ">
+
+        </div>
+
+        <div class="toprowimg milkimg breadimg hideimg col-sm-3">
+            <a id=1 href="#">
+                <img class=imgclass id=foodimg1 src='https://www.bbcgoodfood.com/sites/defaul
+t/files/recipe_images/bread-and-butter-pudding.jpg'>
+                <a class="text butx" id=butx1>x</a>
+                <div class="text">
+                    <p id=imgtext1> Bread and Butter Pudding </p>
+                </div>
+            </a>
+        </div>
+
+        <div class="toprowimg bananaimg hideimg col-sm-3">
+            <a id=2 href="#">
+                <img id=foodimg2 src=https://i.pinimg.com/736x/ff/a3/61/ffa361fe9797c586e9c8181fc5e62eb9.jpg>
+                <a class="text butx" id=butx2>x</a>
+                <div class="text">
+                    <p id=imgtext2> Banana Cake </p>
+                </div>
+            </a>
+        </div>
+
+        <div class="toprowimg pumpkinimg hideimg col-sm-3">
+            <a id=3 href="#">
+                <img id=foodimg3 src=https://www.metro.ca/userfiles/image/recipes/fondue-citrouille-5009.jpg>
+                <a class="text butx" id=butx3>x</a>
+                <div class="text">
+                    <p id=imgtext3> Pumpkin Soup </p>
+                </div>
+            </a>
+        </div>
+
+        <div class="toprowimg  milkimg hides hideimg col-sm-3">
+            <a id=4 href="#">
+                <img id=foodimg4 src='http://andrewzimmern.com/wp-content/uploads/2016/01/Paneer-chese-kit-865x575.jpg'>
+                <a class="text butx" id=butx4>x</a>
+                <div class="text">
+                    <p id=imgtext4> Panneer </p>
+                </div>
+            </a>
+
+        </div>
+
+        <div class="toprowimg  milkimg hides potatoimg hideimg col-sm-3">
+            <a href="#">
+                <img src='http://i.dailymail.co.uk/i/pix/2013/09/26/article-0-1B88A53F000005DC-573_634x486.jpg'>
+                <div class="text"> Potato
+                    <br/> Dauphinoise </div>
+            </a>
+        </div>
+        <div class="toprowimg  avocadoimg hides eggimg hideimg col-sm-3">
+            <a href="#">
+                <img src='https://www.onionringsandthings.com/wp-content/uploads/2014/01/avocado-egg-cups-1.jpg'>
+                <div class="text"> Avocado Egg</div>
+            </a>
+        </div>
+
+        <div class="hides tomatoimg hideimg col-sm-3">
+            <a href="#">
+                <img src='https://www.chowstatic.com/assets/2014/12/10836_creamy_tomato_soup_original_3000_2.jpg'>
+                <div class="text"> Tomato Soup </div>
+            </a>
+            </a>
+        </div>
+        <div class="hides brocolliimg cheeseimg  hideimg col-sm-3">
+            <a href="#">
+                <img src='https://res.cloudinary.com/uktv/image/upload/b_rgb:000000,w_630,c_fill,q_90,h_354/v1436014946/shc2kr3cimunhpx0fpik.jpg'>
+                <div class="text"> Brocolli and
+                    <br/> Cauliflower </br> Cheese </div>
+            </a>
+        </div>
+        <div class="hides strawberryimg hideimg col-sm-3">
+            <a href="#">
+                <img src=http://www.glutenfreeveganpantry.com/wp-content/uploads/2015/03/Strawberry-Chia-Seed-Jam-8.jpg>
+                <div class="text"> Strawberry Jam </div>
+            </a>
+        </div>
+
+    </div>
+    </div>
+    <div class="row ">
+        <div class="col-sm-2 ">
+        </div>
+
+        <div class="hideimg col-sm-3">
+            <a id=4 href="#">
+                <img id=foodimg4 src='http://andrewzimmern.com/wp-content/uploads/2016/01/Paneer-chese-kit-865x575.jpg'>
+                <a class="text butx" id=butx4>x</a>
+                <div class="text">
+                    <p id=imgtext4> Panneer </p>
+                </div>
+            </a>
+
+        </div>
+
+        <div class="hideimg col-sm-3">
+            <a href="#">
+                <img src='http://i.dailymail.co.uk/i/pix/2013/09/26/article-0-1B88A53F000005DC-573_634x486.jpg'>
+                <div class="text"> Potato
+                    <br/> Dauphinoise </div>
+            </a>
+        </div>
+        <div class=" hideimg col-sm-3">
+            <a href="#">
+                <img src='https://www.onionringsandthings.com/wp-content/uploads/2014/01/avocado-egg-cups-1.jpg'>
+                <div class="text"> Avocado Egg</div>
+            </a>
+        </div>
+    </div>
+
+    </div>
+    <br/>
+    <br/>
+    <br/>
+    <div class="row ">
+
+        <div class="col-sm-2">
+        </div>
+
+        <div class=" hideimg col-sm-3">
+            <a href="#">
+                <img src='https://www.chowstatic.com/assets/2014/12/10836_creamy_tomato_soup_original_3000_2.jpg'>
+                <div class="text"> Tomato Soup </div>
+            </a>
+            </a>
+        </div>
+        <div class=" hideimg col-sm-3">
+            <a href="#">
+                <img src='https://res.cloudinary.com/uktv/image/upload/b_rgb:000000,w_630,c_fill,q_90,h_354/v1436014946/shc2kr3cimunhpx0fpik.jpg'>
+                <div class="text"> Brocolli and
+                    <br/> Cauliflower </br> Cheese </div>
+            </a>
+        </div>
+        <div class="  hideimg col-sm-3">
+            <a href="#">
+                <img src=http://www.glutenfreeveganpantry.com/wp-content/uploads/2015/03/Strawberry-Chia-Seed-Jam-8.jpg>
+                <div class="text"> Strawberry Jam </div>
+            </a>
+        </div>
+    </div>
+
+    </div>
+
+</body>
+
+<script>
+    $('.hides').hide();
+
+    function clearfunc() {
+        $('.hideimg').show();
+        document.getElementById("p1").innerHTML = ""
+        $('.hides').hide();
+    }
+
+    $('input[value="Banana"]').click(function() {
+        $('.hideimg').hide();
+        $('.bananaimg').show();
+        document.getElementById("p1").innerHTML = "You have Bananas"
+
+    });
+
+    $('input[value="Pumpkin"]').click(function() {
+        $('.hideimg').hide();
+        $('.pumpkinimg').show();
+        document.getElementById("p1").innerHTML = "You have Pumpkin"
+    });
+    $('input[value="Bread"]').click(function() {
+        $('.hideimg').hide();
+        $('.breadimg').show();
+        document.getElementById("p1").innerHTML = "You have Bread"
+    });
+
+    $('input[value="Milk"]').click(function() {
+        $('.hideimg').hide();
+        $('.milkimg').show();
+        document.getElementById("p1").innerHTML = "You have Milk"
+    });
+    $('input[value="Potatoes"]').click(function() {
+        $('.hideimg').hide();
+        $('.potatoimg').show();
+        document.getElementById("p1").innerHTML = "You have Potatoes"
+    });
+    $('input[value="Tomatoes"]').click(function() {
+        $('.hideimg').hide();
+        $('.tomatoimg').show();
+        document.getElementById("p1").innerHTML = "You have Tomatoes"
+    });
+    $('input[value="Tomatoes"]').click(function() {
+        $('.hideimg').hide();
+        $('.tomatoimg').show();
+        document.getElementById("p1").innerHTML = "You have Tomatoes"
+    });
+    $('input[value="Strawberries"]').click(function() {
+        $('.hideimg').hide();
+        $('.strawberryimg').show();
+        document.getElementById("p1").innerHTML = "You have Strawberries"
+    });
+    $('input[value="Broccoli"]').click(function() {
+        $('.hideimg').hide();
+        $('.brocolliimg').show();
+        document.getElementById("p1").innerHTML = "You have Brocolli"
+    });
+    $('input[value="Eggs"]').click(function() {
+        $('.hideimg').hide();
+        $('.eggimg').show();
+        document.getElementById("p1").innerHTML = "You have Eggs"
+    });
+    $('input[value="Eggs"]').click(function() {
+        $('.hideimg').hide();
+        $('.eggimg').show();
+        document.getElementById("p1").innerHTML = "You have Eggs"
+    });
+    $('input[value="Cheese"]').click(function() {
+        $('.hideimg').hide();
+        $('.cheeseimg').show();
+        document.getElementById("p1").innerHTML = "You have Cheese"
+    });
+    $('input[value="Avocados"]').click(function() {
+        $('.hideimg').hide();
+        $('.avocadoimg').show();
+        document.getElementById("p1").innerHTML = "You have Avocado"
+    });
+
+    $('.butx').hide();
+
+    var breadR = "<br/><h3>Bread and Butter Pudding</h3><ul><li> 25g/1oz butter </li><li> Thin slices bread </li><li> 50g/2oz sultanas </li><li> 2 tsp cinnamon powder </li><li> 350ml/12fl oz whole milk </li><li> 50ml/2fl oz double cream </li><li> 2 free-range eggs </li><li> 25g/1oz granulated sugar </li></ul>"
+    var buttons;
+
+    var bananaR = "<br/><h3>Banana Cake</h3><ul><li> 25g/1oz butter </li><li> Banana </li> <li> 2 tsp cinnamon powder </li><li> 350ml/12fl oz whole milk </li><li> 50ml/2fl oz double cream </li><li> 2 free-range eggs </li><li> 25g/1oz granulated sugar </li></ul>"
+
+    $('#butx' + buttons).hide();
+
+    $('#1').click(changeimg);
+
+    function changeimg() {
+        buttons = 1;
+        $('#foodimg' + buttons).addClass('imageclass2');
+        $('#imgtext' + buttons).addClass('imgtextclass2');
+        $('#butx' + buttons).show();
+        document.getElementById("imgtext" + buttons).innerHTML = breadR;
+    }
+
+    $("#butx" + 1).click(changeback);
+
+    function changeback() {
+        buttons = 1;
+
+        $('#foodimg' + buttons).removeClass('imageclass2');
+        $('#imgtext' + buttons).removeClass('imgtextclass2');
+        $('#butx' + buttons).hide();
+        document.getElementById("imgtext" + buttons).innerHTML = "Bread and Butter Pudding";
+    }
+
+    $('#2').click(changeimg2);
+
+    function changeimg2() {
+        buttons = 2;
+        $('#foodimg' + buttons).addClass('imageclass2');
+        $('#imgtext' + buttons).addClass('imgtextclass2');
+        $('#butx' + buttons).show();
+        document.getElementById("imgtext" + buttons).innerHTML = bananaR;
+    }
+
+    $("#butx" + 2).click(changeback2);
+
+    function changeback2() {
+        buttons = 2
+
+        $('#foodimg' + buttons).removeClass('imageclass2');
+        $('#imgtext' + buttons).removeClass('imgtextclass2');
+        $('#butx' + buttons).hide();
+        document.getElementById("imgtext" + buttons).innerHTML = "Banana Cake";
+    }
+
+    $('#3').click(changeimg3);
+
+    function changeimg3() {
+        buttons = 3;
+        $('#foodimg' + buttons).addClass('imageclass2');
+        $('#imgtext' + buttons).addClass('imgtextclass2');
+        $('#butx' + buttons).show();
+        document.getElementById("imgtext" + buttons).innerHTML = bananaR;
+    }
+
+    $("#butx" + 3).click(changeback3);
+
+    function changeback3() {
+        buttons = 3
+
+        $('#foodimg' + buttons).removeClass('imageclass2');
+        $('#imgtext' + buttons).removeClass('imgtextclass2');
+        $('#butx' + buttons).hide();
+        document.getElementById("imgtext" + buttons).innerHTML = "Pumpkin Soup";
+    }
+
+    $('#4').click(changeimg4);
+
+    function changeimg4() {
+        buttons = 4;
+        $('#foodimg' + buttons).addClass('imageclass2');
+        $('#imgtext' + buttons).addClass('imgtextclass2');
+        $('#butx' + buttons).show();
+        document.getElementById("imgtext" + buttons).innerHTML = bananaR;
+    }
+
+    $("#butx" + 4).click(changeback4);
+
+    function changeback4() {
+        buttons = 4
+
+        $('#foodimg' + buttons).removeClass('imageclass2');
+        $('#imgtext' + buttons).removeClass('imgtextclass2');
+        $('#butx' + buttons).hide();
+        document.getElementById("imgtext" + buttons).innerHTML = "Paneer";
+    }
+
+    $('#5').click(changeimg5);
+
+    function changeimg5() {
+        buttons = 5;
+        $('#foodimg' + buttons).addClass('imageclass2');
+        $('#imgtext' + buttons).addClass('imgtextclass2');
+        $('#butx' + buttons).show();
+        document.getElementById("imgtext" + buttons).innerHTML = bananaR;
+    }
+
+    $("#butx" + 5).click(changeback4);
+
+    function changeback4() {
+        buttons = 5
+
+        $('#foodimg' + buttons).removeClass('imageclass2');
+        $('#imgtext' + buttons).removeClass('imgtextclass2');
+        $('#butx' + buttons).hide();
+        document.getElementById("imgtext" + buttons).innerHTML = "Paneer";
+    }
+</script>
+
+</html>
