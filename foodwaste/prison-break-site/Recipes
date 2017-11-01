@@ -312,14 +312,14 @@
               Get involved
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-               <a class="dropdown-item"  href="file:apps#apps">Apps</a>
-               <a class="dropdown-item" href="file:apps#communityfridges">Community Fridges</a>
+               <a class="dropdown-item"  href="file:apps.html#apps">Apps</a>
+               <a class="dropdown-item" href="file:apps.html#communityfridges">Community Fridges</a>
                
-                <a class="dropdown-item" href="file:apps#communityfridges">Events</a>
+                <a class="dropdown-item" href="file:apps.html#communityfridges">Events</a>
               </div>
               </li>
               <li class="nav-item">
-              <a class="a nav-link" href="file:Recipes">Recipes</a>
+              <a class="a nav-link" href="file:Recipes.html">Recipes</a>
               </li>
            </ul>
 
@@ -355,16 +355,13 @@
         </div>
 
         <div class=c ol-sm-3>
-         <p class='leftmargin' style="font-weight:bold"> Don't waste food, use up your leftovers! Select your leftover ingredients on the left hand side and get recipe suggestions that use up food already in your fridge! </p>
-
+<p class='leftmargin'> Don't waste food, use up your leftovers! Select your leftover ingredients on the left hand side and get recipe suggestions that use up food already in your fridge! </p>
             <p id="p1" class="leftmargin"> </p>
         </div>
     </div>
     <div class="row">
 
         <div class="col-sm-2">
-
-
             <br/>
 
             <h3 class="fridge"> What's in your fridge?</h3>
@@ -458,26 +455,28 @@ t/files/recipe_images/bread-and-butter-pudding.jpg'>
         </div>
 
         <div class="toprowimg  milkimg hides hideimg col-sm-3">
-            <a id=42 href="#">
-                <img id=foodimg42 src='http://andrewzimmern.com/wp-content/uploads/2016/01/Paneer-chese-kit-865x575.jpg'>
-                <a class="text butx" id=butx42>x</a>
+            <a id=4 href="#">
+                <img id=foodimg4 src='http://andrewzimmern.com/wp-content/uploads/2016/01/Paneer-chese-kit-865x575.jpg'>
+                <a class="text butx" id=butx4>x</a>
                 <div class="text">
-                    <p id=imgtext42> Panneer </p>
+                    <p id=imgtext4> Paneer </p>
                 </div>
             </a>
 
         </div>
 
         <div class="toprowimg  milkimg hides potatoimg hideimg col-sm-3">
-            <a href="#">
-                <img src='http://i.dailymail.co.uk/i/pix/2013/09/26/article-0-1B88A53F000005DC-573_634x486.jpg'>
-                <div class="text"> Potato
+            <a id=5 href="#">
+                <img id=foodimg5 src='http://i.dailymail.co.uk/i/pix/2013/09/26/article-0-1B88A53F000005DC-573_634x486.jpg'>
+                <a class="text butx" id=butx5>x</a>
+                <div class="text" id=imgtext5> Potato
                     <br/> Dauphinoise </div>
             </a>
         </div>
         <div class="toprowimg  avocadoimg hides eggimg hideimg col-sm-3">
             <a href="#">
                 <img src='https://www.onionringsandthings.com/wp-content/uploads/2014/01/avocado-egg-cups-1.jpg'>
+
                 <div class="text"> Avocado Egg</div>
             </a>
         </div>
@@ -510,29 +509,27 @@ t/files/recipe_images/bread-and-butter-pudding.jpg'>
         </div>
 
         <div class="hideimg col-sm-3">
-            <a id=4 href="#">
-                <img id=foodimg4 src='http://andrewzimmern.com/wp-content/uploads/2016/01/Paneer-chese-kit-865x575.jpg'>
-                <a class="text butx" id=butx4>x</a>
+            <a id=42 href="#">
+                <img id=foodimg42 src='http://andrewzimmern.com/wp-content/uploads/2016/01/Paneer-chese-kit-865x575.jpg'>
+                <a class="text butx" id=butx42>x</a>
                 <div class="text">
-                    <p id=imgtext4> Panneer </p>
+                    <p id=imgtext42> Panneer </p>
                 </div>
             </a>
 
         </div>
 
         <div class="hideimg col-sm-3">
-            <a id=5 href="#">
-                <img id=foodimg5 src='http://i.dailymail.co.uk/i/pix/2013/09/26/article-0-1B88A53F000005DC-573_634x486.jpg'>
-                <a class="text butx" id=butx5>x</a>
-                <div id=imgtext5 class="text"> Potato
-                    <br/>  Dauphinoise </div>
+            <a href="#">
+                <img src='http://i.dailymail.co.uk/i/pix/2013/09/26/article-0-1B88A53F000005DC-573_634x486.jpg'>
+                <div class="text"> Potato
+                    <br/> Dauphinoise </div>
             </a>
         </div>
-        <div id=6 class=" hideimg col-sm-3">
+        <div class=" hideimg col-sm-3">
             <a href="#">
-                <img  id= foodimg6 src='https://www.onionringsandthings.com/wp-content/uploads/2014/01/avocado-egg-cups-1.jpg'>
-                   <a class="text butx" id=butx6>x</a>
-                <div id=imgtext6 class="text"> Avocado Egg</div>
+                <img src='https://www.onionringsandthings.com/wp-content/uploads/2014/01/avocado-egg-cups-1.jpg'>
+                <div class="text"> Avocado Egg</div>
             </a>
         </div>
     </div>
@@ -656,13 +653,19 @@ t/files/recipe_images/bread-and-butter-pudding.jpg'>
     var buttons;
 
     var bananaR = "<br/><h3>Banana Cake</h3><ul><li> 25g/1oz butter </li><li> Banana </li> <li> 2 tsp cinnamon powder </li><li> 350ml/12fl oz whole milk </li><li> 50ml/2fl oz double cream </li><li> 2 free-range eggs </li><li> 25g/1oz granulated sugar </li></ul>"
-        var pumpkinR = "<br/><h3>Pumpkin Soup</h3><ul><li>2 onions</li><li> 1kg pumpkin </li> <li> 700ml vegetable stock </li><li> 150ml double cream </li><li> </ul>"
+
+
+    var pumpkinR = "<br/><h3>Pumpkin Soup</h3><ul><li>2 onions</li><li> 1kg pumpkin </li> <li> 700ml vegetable stock </li><li> 150ml double cream </li><li> </ul>"
 
     var paneerR = "<br/><h3>Paneer</h3><ul><li>2 litres/3½ pints whole milk</li><li> 2 tbsp lemon juice </li> </ul>"
    
     var potatoR = "<br/><h3>Potato Dauphinoise</h3><ul><li>  500ml double cream</li><li> 500ml milk </li> <li> 3 garlic cloves</li> <li> 8 large potatoes</li> </ul>"
+    var 
 
-    var avocadoR = "<br/><h3>Avocado Egg</h3><ul><li>  Avocado </li><li> Egg </li> </ul>"
+
+  
+
+
 
     $('#butx' + buttons).hide();
 
@@ -739,7 +742,7 @@ t/files/recipe_images/bread-and-butter-pudding.jpg'>
         document.getElementById("imgtext" + buttons).innerHTML = paneerR;
     }
 
-    $("#butx" + 4).click(changeback4);
+    $("#butx4").click(changeback4);
 
     function changeback4() {
         buttons = 4
@@ -749,6 +752,36 @@ t/files/recipe_images/bread-and-butter-pudding.jpg'>
         $('#butx' + buttons).hide();
         document.getElementById("imgtext" + buttons).innerHTML = "Paneer";
     }
+
+        $('#42').click(changeimg42);
+
+    function changeimg42() {
+        buttons = 42;
+        $('#foodimg' + buttons).addClass('imageclass2');
+        $('#imgtext' + buttons).addClass('imgtextclass2');
+        $('#butx' + buttons).show();
+        document.getElementById("imgtext" + buttons).innerHTML = paneerR;
+    }
+
+    $("#butx" + 42).click(changeback42);
+
+    function changeback42() {
+        buttons = 42
+
+        $('#foodimg' + buttons).removeClass('imageclass2');
+        $('#imgtext' + buttons).removeClass('imgtextclass2');
+        $('#butx' + buttons).hide();
+        document.getElementById("imgtext" + buttons).innerHTML = "Paneer";
+    }
+
+
+
+
+
+
+
+
+
 
     $('#5').click(changeimg5);
 
@@ -760,7 +793,7 @@ t/files/recipe_images/bread-and-butter-pudding.jpg'>
         document.getElementById("imgtext" + buttons).innerHTML = potatoR;
     }
 
-    $("#butx" + 5).click(changeback5);
+    $("#butx" + 5).click(changeback4);
 
     function changeback5() {
         buttons = 5
@@ -768,29 +801,9 @@ t/files/recipe_images/bread-and-butter-pudding.jpg'>
         $('#foodimg' + buttons).removeClass('imageclass2');
         $('#imgtext' + buttons).removeClass('imgtextclass2');
         $('#butx' + buttons).hide();
-        document.getElementById("imgtext" + buttons).innerHTML = "Potato <br/>Dauphinoise";
-    }
-
-     $('#6').click(changeimg6);
-
-    function changeimg6() {
-        buttons = 6;
-        $('#foodimg' + buttons).addClass('imageclass2');
-        $('#imgtext' + buttons).addClass('imgtextclass2');
-        $('#butx' + buttons).show();
-        document.getElementById("imgtext" + buttons).innerHTML = avocadoR;
-    }
-
-    $("#butx" + 6).click(changeback6);
-
-    function changeback6() {
-        buttons = 6
-
-        $('#foodimg' + buttons).removeClass('imageclass2');
-        $('#imgtext' + buttons).removeClass('imgtextclass2');
-        $('#butx' + buttons).hide();
-        document.getElementById("imgtext" + buttons).innerHTML = "Potato <br/>Dauphinoise";
+        document.getElementById("imgtext" + buttons).innerHTML = "Potato Dauphinoise";
     }
 </script>
 
 </html>
+
