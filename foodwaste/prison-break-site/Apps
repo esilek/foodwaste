@@ -136,7 +136,7 @@ font-size: 20px !important;
 
                
               <li class="nav-item dropdown">
-              <a class="a nav-link dropdown-toggle" href="file:apps" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <a class="a nav-link dropdown-toggle" href="file:apps.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Get involved
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -147,7 +147,7 @@ font-size: 20px !important;
               </div>
               </li>
               <li class="nav-item">
-              <a class="a nav-link" href="file:Recipes">Recipes</a>
+              <a class="a nav-link" href="file:Recipes.html">Recipes</a>
               </li>
            </ul>
 
